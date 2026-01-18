@@ -17,7 +17,7 @@ class Calculator {
     this.result *= value;
     return this;
   }
-
+// Divide method
   divide(value) {
     if (value === 0) {
       throw new Error("Cannot divide by zero");
